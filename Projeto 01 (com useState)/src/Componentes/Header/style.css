@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Alegreya+Sans:ital,wght@1,300&family=Raleway:wght@300&display=swap');
+
+body{
+    min-width: 200px;
+}
+
+header{
+    font-family: 'Raleway', sans-serif;
+    min-width: 30%;
+    height: 80px;
+    min-height: auto;
+    margin: auto;
+    background-color: #121212;
+    color: #ffff;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    transition-duration: 0.7s;
+    transition-property: all;
+
+    margin-top: -10px;
+    margin-right: -10px;
+    margin-left: -10px;
+}
+
+header:hover{
+    transition-timing-function: ease;
+    background: rgb(80, 55, 227);
+    transition-delay: 0s;
+}
+
+.link_cabecalho {
+    color: #ffff;
+    text-decoration: none;
+    margin-right: 10px;
+}
+
+.texto_cabecalho{
+    padding: 0px 20px 0px 20px;
+}
+
+header nav .link_cabecalho{
+    padding: 0px 10px 0px 10px;
+}
+
+a:hover{
+    color: black;
+}
