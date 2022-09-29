@@ -1,70 +1,45 @@
-# Getting Started with Create React App
+<header>
+  <h1 align="center"><em>ToDo List</em></h1>
+</header>
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+<section>
+  <h6 align="center">Sobre:</h6>
+  <p>
+    Espaço destinado para algumas postagens do projeto ToDo List, onde foi escrito utilizando framework ReactJS e estilizado usando a ferramenta de estilização CSS, é possivel ver um video sobre o projeto dentro da pasta "[...]/src/video/"
+  </p>
+</section>
 
-## Available Scripts
+<hr>
 
-In the project directory, you can run:
+<section>
+  <h6 align="center">Informações:</h6>
+  <p>
+      Autor: Matheus F. Santos<br>
+  </p>
+</section>
 
-### `npm start`
+<hr>
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+<section>
+  <h6 align="center">Navegação:</h6>
+  <nav>
+    <ul>
+      <li>Página Inicial <a href="https://github.com/Matheus-FSantos" target="_blank">(Clique Aqui)</a></li>
+      <li>Readme - Repositório <a href="https://github.com/Matheus-FSantos/Matheus-FSantos" target="_blank">(Clique Aqui)</a></li>
+      <li>Programação Web - Repositório <a href="https://github.com/Matheus-FSantos/SENAC-PWA107-1142496616-Matheus" target="_blank">(Clique Aqui)</a></li>
+      <li>Exercicios em Java (Algoritmos) - Repositório <a href="https://github.com/Matheus-FSantos/ExerciciosJava" target="_blank">(Clique Aqui)</a></li>
+      <li>MySQL - SoftBlue - Repositório <a href="https://github.com/Matheus-FSantos/MySQL-Softblue" target="_blank">(Clique Aqui)</a></li>
+      <li>Arduino - Repositório <a href="https://github.com/Matheus-FSantos/ArduinoProjetos" target="_blank">(Clique Aqui)</a></li>
+      <li>Curso de Java - Repositório <a href="https://github.com/Matheus-FSantos/Curso-de-Java-Udemy" target="_blank">(Clique Aqui)</a></li>
+      <li>Curso Desenvolvimento Web Completo - Repositório <a href="https://github.com/Matheus-FSantos/curso-desenvolvimeto-web-completo-udemy/" targer="_blank">(Clique Aqui)</a></li>
+      <li><a href="https://github.com/Matheus-FSantos?tab=repositories">(Mais Repositórios)</a></li>
+    </ul>
+  </nav>
+</section>
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+<hr>
 
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+<section align="center">
+  <img alt="Matheus-REACTJS" height="auto" width="60" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original-wordmark.svg"/>
+  <img alt="Matheus-CSS" height="auto" width="60" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-plain.svg"/>
+</section>
