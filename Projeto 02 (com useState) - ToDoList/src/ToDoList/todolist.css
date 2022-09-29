@@ -1,0 +1,146 @@
+@import url('https://fonts.googleapis.com/css2?family=Rajdhani:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter+Tight:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter+Tight:ital,wght@1,200&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background: rgb(35, 0, 68);
+}
+
+.conteinerPrincipal{
+    background:rgb(79, 0, 154);
+    width: 35%;
+    height: auto;
+    margin: auto;
+    border: solid 2px white;
+
+    padding: 20px;
+
+
+    position: absolute;
+    top: 30%;
+    left: 32%;
+
+    box-shadow: 10px 10px 5px black;
+
+    transition-duration: 1s;
+    transition-property: all;
+}
+
+.conteinerPrincipal:hover{
+    box-shadow: 20px 20px 3px black;
+    top: 29.5%;
+    transition-timing-function: ease;
+    transition-delay: 0s;
+
+    
+    border-radius: 15px;
+}
+
+.tituloConteinerPrincipal{
+    font-family: 'Rajdhani', sans-serif;
+    font-size: 48px;
+
+    padding: 10px;
+    text-align: center;
+
+    color: white;
+
+}
+
+.preto{
+    color: rgb(0, 0, 0);
+}
+
+.formularioConteinerPrincipal{
+    display: flex;
+    flex-direction: column;
+}
+
+.inputConteinerPrincipal{
+    font-family: 'Inter Tight', sans-serif;
+    font-size: 20px;
+
+    margin-bottom: 15px;
+    padding: 5px 5px 5px 5px;
+
+    border: solid 1px black;
+    border-radius: 6px;
+    
+    box-shadow: 2px 2px 2px black;
+}
+
+.botaoAddConteinerPrincipal{
+    margin-bottom: 6px;
+    background: rgb(0, 206, 0);
+    padding: 5px;
+    border: solid 1px green;
+    border-radius: 15px;
+
+    box-shadow: 2px 2px 2px black;
+}
+
+.botaoAddConteinerPrincipal:hover{
+    background: green;
+}
+
+.botaoAddConteinerPrincipal:active{
+    position: relative;
+    background: green;
+    top: 2px;
+    box-shadow: none;
+}
+
+.botaoDelConteinerPrincipal{
+    margin-bottom: 6px;
+    background: red;
+    padding: 5px;
+    border: solid 1px rgb(155, 0, 0);
+    border-radius: 15px;
+
+    box-shadow: 2px 2px 2px black;
+}
+
+.botaoDelConteinerPrincipal:hover{
+    background: rgb(155, 0, 0);
+}
+
+.botaoDelConteinerPrincipal:active{
+    position: relative;
+    background:rgb(155, 0, 0);
+    top: 5px;
+    box-shadow: none;
+}
+
+.botaoDelConteinerPrincipal, .botaoAddConteinerPrincipal{
+    font-family: 'Inter Tight', sans-serif;
+    font-weight: bold;
+}
+
+.conteinerTarefas{
+    width: 95%;
+    margin: auto;
+}
+
+.listaTarefas{
+    font-weight: bold;
+    margin-top: 30px;
+}
+
+.tarefas{
+    width: 100%;
+    font-family: 'Inter Tight', sans-serif;
+    font-size: 20px;
+    color: white;
+
+    overflow-wrap: break-word; /*Quebra Linha*/
+    margin-top: 10px;
+}
+
+.principal .conteinerTarefas .listaTarefas .tarefas{
+    list-style-type: none;
+}
