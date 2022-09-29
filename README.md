@@ -40,7 +40,5 @@
 <hr>
 
 <section align="center">
-  <a href="https://www.sp.senac.br/" target="_blank">
-    <img alt="Matheus-SENAC" height="45" width="70" src="https://logodownload.org/wp-content/uploads/2014/10/senac-logo-4.png">
-  </a>
+  <img alt="Matheus-REACTJS" height="auto" width="60" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original-wordmark.svg"/>
 </section>
