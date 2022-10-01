@@ -5,7 +5,7 @@
 <section>
   <h6 align="center">Sobre:</h6>
   <p>
-    Espaço destinado para a postagem do projeto ToDo List, onde foi escrito utilizando framework ReactJS e estilizado usando a ferramenta de estilização CSS, é possivel ver um video sobre o projeto dentro da pasta "[...]/src/video/"
+    Espaço destinado para a postagem do projeto ToDo List, onde, foi escrito utilizando framework ReactJS e estilizado usando a ferramenta de estilização CSS, é possivel ver um video sobre o projeto dentro da pasta "[...]/src/video/"
   </p>
 </section>
 
