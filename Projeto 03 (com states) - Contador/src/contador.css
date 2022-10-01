@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital@1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter+Tight:ital,wght@1,200&display=swap');
+
+
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    background: rgb(0, 0, 0);
+}
+
+.principal{
+    background: white;
+    padding: 20px;
+    width: 40%;
+    margin: auto;
+
+    position: absolute;
+    top: 25%;
+    left: 25%;
+    bottom: 25%;
+    left: 25%;
+
+    border: solid 2px white;
+    border-radius: 15px;
+
+    box-shadow: 8px 8px 10px gray;
+
+    transition-property: all;
+    transition-duration: 0.5s;
+}
+
+
+.principal:hover{
+    transition-timing-function: ease;
+    transition-delay: 0s;
+
+    top: 23%;
+    left: 23%;
+    bottom: 23%;
+    left: 23%;
+
+    box-shadow: 30px 30px 20px gray;
+    background: yellow;
+
+    text-shadow: 2px 4px 2px gray;
+}
+
+.titulo{
+    font-family: 'Montserrat', sans-serif;
+
+    text-align: center;
+    padding: 10px;
+    font-size: 40px;
+}
+
+.numeros{
+    font-family: 'Inter Tight', sans-serif;
+    font-weight: bold;
+
+
+    text-shadow: none;
+
+    text-align: center;
+    padding: 20px;
+    font-size: 30px;
+}
+
+.botao{
+    font-family: 'Inter Tight', sans-serif;
+    font-weight: bold;
+
+    display: block;
+
+    padding: 2px;
+    margin: 20px auto 0px auto;
+
+    box-shadow: 2px 2px 2px black;
+
+    width: 100%;
+    height: 45px;
+
+    transition-duration: 0.2s;
+    transition-property: all;
+}
+
+.botao:hover{
+    transition-timing-function: ease;
+    transition-delay: 0s;
+
+    border: solid 0.5px black;
+    
+    box-shadow: 5px 6px 2px black;
+
+    background: rgb(187, 187, 187)
+}
+
+.botao:active{
+    position: relative;
+    top: 5px;
+
+    background: gray;
+
+    box-shadow: none;
+}
